@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/id_fcam"
+    android:background="@drawable/gradient_list">
+
+
+
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fitsSystemWindows="true"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+        >
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?actionBarSize"
+            android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+            app:title="NOVIDADES"
+            ></android.support.v7.widget.Toolbar>
+
+    </android.support.design.widget.AppBarLayout>
+
+<!--<EditText
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:layout_marginTop="50dp"
+    android:layout_below="@+id/toolbar"
+    android:id="@+id/filter"/>-->
+    <android.support.v7.widget.RecyclerView
+
+        android:layout_below="@+id/filter"
+        android:layout_marginTop="60dp"
+        android:id="@+id/recycler_view_campanhas"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        />
+
+
+</android.support.design.widget.CoordinatorLayout>
+    <!-- 60 to 110-->

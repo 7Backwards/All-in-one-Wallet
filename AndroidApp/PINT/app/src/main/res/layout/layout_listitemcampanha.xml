@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:padding="1dp"
+    android:id="@+id/parent_layout3">
+
+
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardCornerRadius="0dp"
+            android:layout_margin="0dp"
+
+            android:background="@drawable/cardview_border"
+
+            >
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="300dp">
+                <ImageView
+                    android:id="@+id/image"
+                    android:src="@drawable/materialwally"
+                    android:scaleType="centerCrop"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    />
+
+                <TextView
+                    android:id="@+id/f_estabelecimento"
+                    android:padding="5dp"
+                    android:background="#55000000"
+                    android:textColor="@color/white"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginRight="16dp"
+                    android:text="Estabelecimento"
+                    android:textSize="16sp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+                <TextView
+
+                    android:id="@+id/f_nome_campanha"
+                    android:padding="5dp"
+                    android:textColor="@color/white"
+                    android:layout_marginBottom="0dp"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginRight="16dp"
+                    android:maxLines="3"
+                    android:drawablePadding="10dp"
+                    android:ellipsize="end"
+                    android:text="O android studio "
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_above="@id/btn_add_card"
+                    android:background="#55000000"
+                    />
+
+
+                <Button
+                    android:id="@+id/btn_add_card"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:text="ADICIONAR"
+                    android:layout_alignParentBottom="true"
+                    android:background="@color/com_facebook_button_login_silver_background_color_pressed"
+                    />
+
+            </RelativeLayout>
+
+
+        </android.support.v7.widget.CardView>
+
+
+
+
+
+</RelativeLayout>
+
+
+<!--
+
+
+
+-->

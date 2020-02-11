@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/nav_carteira"
+        android:icon="@drawable/ic_account_balance_wallet_black_24dp"
+        android:title="Carteira"/>
+    <item
+        android:id="@+id/nav_movimentos"
+        android:icon="@drawable/ic_assignment_black_24dp"
+        android:title="Movimentos"/>
+    <item
+        android:id="@+id/nav_campanhas"
+        android:icon="@drawable/ic_whatshot_black_24dp"
+        android:title="Campanhas"/>
+    <item
+        android:id="@+id/nav_explore"
+        android:icon="@drawable/ic_explore_black_24dp"
+        android:title="Mapa"/>
+    <item
+        android:id="@+id/nav_perfil"
+        android:icon="@drawable/ic_settings_applications_black_24dp"
+        android:title="Perfil"/>
+</menu>

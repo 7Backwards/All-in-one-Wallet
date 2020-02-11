@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">All in one Wallet</string>
+
+
+    <string name="facebook_application_id" translatable="false">434490234060035</string>
+    <string name="facebook_login_protocol_scheme" translatable="false">fb434490234060035</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="permitir">PERMITIR</string>
+    <string name="permiss_es">Permissões</string>
+    <string name="a_aplica_o_precisa_de_permiss_o_para_aceder_localiza_o_do_dispositivo_para_funcionar_corretamente">A aplicação precisa de permissão para aceder à localização do dispositivo para funcionar corretamente</string>
+    <string name="todo">TODO</string>
+    <string name="estabelecimento">Estabelecimento</string>
+    <string name="viseu">Viseu</string>
+    <string name="mercearia_do_manel">Mercearia do Manel</string>
+    <string name="pontos_no_cart_o">Pontos no Cartão</string>
+    <string name="data_de_ader_ncia">Data de aderência</string>
+    <string name="_45">45</string>
+    <string name="ontem_ou_passado">ontem ou passado</string>
+    <string name="cidade">Cidade</string>
+    <string name="morada_do_estabelecimento">Morada do estabelecimento</string>
+    <string name="algures">Algures</string>
+    <string name="descri_o">Descrição</string>
+    <string name="ouvi_dizer_que_era_bonito">Ouvi dizer que era bonito</string>
+    <string name="movimentos">MOVIMENTOS</string>
+    <string name="eliminar">ELIMINAR</string>
+    <string name="desfidelizar">Desfidelizar</string>
+    <string name="morada">Morada</string>
+    <string name="pontos_em_cart_o">Pontos em cartão</string>
+    <string name="_0">0</string>
+    <string name="id_do_cart_o">ID do Cartão</string>
+</resources>

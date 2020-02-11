@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:padding="15dp"
+    android:id="@+id/mov_parent_layout">
+
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        app:cardCornerRadius="30dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="establecimento"
+            android:id="@+id/mov_id_estabelecimento"
+            android:layout_toRightOf="@+id/image"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="30dp"
+            android:textSize="12sp"
+
+            android:textColor="@color/fui_bgFacebook"
+            android:gravity="center_vertical|start"
+            android:padding="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="35dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="data"
+            android:id="@+id/mov_image_name"
+            android:layout_toRightOf="@+id/image"
+
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="30dp"
+            android:textSize="10sp"
+
+            android:textColor="@color/quantum_black_text"
+            android:gravity="center_vertical|end"
+            android:padding="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="35dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Valor"
+            android:layout_toRightOf="@+id/image"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="30dp"
+            android:textSize="12sp"
+            android:gravity="center_vertical|start"
+            android:layout_marginBottom="30dp"
+            android:textColor="@color/quantum_black_text"
+            android:padding="15dp"
+            android:layout_marginRight="15dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Valor da transação "
+            android:id="@+id/mov_res_valor"
+            android:layout_toRightOf="@+id/image"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="30dp"
+            android:textSize="17sp"
+            android:textColor="@color/quantum_black_text"
+            android:gravity="center_vertical|start"
+            android:padding="15dp"
+            android:layout_marginRight="15dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Ganhos"
+            android:textColorHint="@color/fui_bgFacebook"
+            android:layout_toRightOf="@+id/image"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="30dp"
+            android:textSize="12sp"
+            android:gravity="center_vertical|center"
+            android:layout_marginBottom="30dp"
+            android:textColor="@color/quantum_black_text"
+            android:padding="15dp"
+            android:layout_marginRight="15dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="ganhos"
+            android:id="@+id/mov_res_ganhos"
+            android:layout_toRightOf="@+id/image"
+            android:paddingTop="60dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="30dp"
+            android:textSize="17sp"
+
+            android:textColor="@color/colorPrimary"
+            android:gravity="center_vertical|center"
+            android:padding="15dp"
+            android:layout_marginRight="15dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Descontados"
+            android:layout_toRightOf="@+id/image"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="30dp"
+            android:textSize="12sp"
+            android:gravity="center_vertical|right"
+            android:layout_marginBottom="30dp"
+            android:textColor="@color/quantum_black_text"
+            android:padding="15dp"
+            android:layout_marginRight="15dp"/>
+
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="descontados"
+            android:id="@+id/mov_res_descontados"
+            android:layout_toRightOf="@+id/image"
+            android:paddingTop="60dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="30dp"
+            android:textSize="17sp"
+            android:textColor="@color/colorAccent"
+            android:gravity="center_vertical|right"
+            android:padding="15dp"
+            android:layout_marginRight="15dp"/>
+
+
+
+    </android.support.v7.widget.CardView>
+
+</RelativeLayout>

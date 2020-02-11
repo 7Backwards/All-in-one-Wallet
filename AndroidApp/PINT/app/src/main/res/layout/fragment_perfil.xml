@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/id_perfil"
+    android:background="@drawable/gradient_list">
+
+
+
+<android.support.design.widget.AppBarLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:fitsSystemWindows="true"
+    android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+    >
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?actionBarSize"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+        app:title="PERFIL"
+        ></android.support.v7.widget.Toolbar>
+
+</android.support.design.widget.AppBarLayout>
+
+    <android.support.v4.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"
+
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            >
+            
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="75dp"
+                android:background="@drawable/gradient_list"
+                >
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                    android:text="Registo Associado"
+                    android:gravity="center_vertical|start"
+                    android:padding="15dp"
+                    />
+
+            </android.support.v7.widget.CardView>
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="75dp"
+
+
+                >
+                <TextView
+                    android:id="@+id/fire_mail"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                    android:text=" E-mail (Não reconhecido)"
+                    android:textColor="@color/quantum_black_text"
+                    android:gravity="center_vertical|center"
+                    android:padding="15dp"
+                    />
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="75dp"
+
+
+                >
+                <TextView
+                    android:id="@+id/fire_name"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                    android:text=" Nome (Não reconhecido)"
+                    android:textColor="@color/quantum_black_text"
+                    android:gravity="center_vertical|center"
+                    android:padding="15dp"
+                    />
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="75dp"
+
+                >
+                <TextView
+                    android:id="@+id/fire_phone"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                    android:text=" Contacto (Não reconhecido)"
+                    android:textColor="@color/quantum_black_text"
+                    android:gravity="center_vertical|center"
+                    android:padding="15dp"
+                    />
+
+            </android.support.v7.widget.CardView>
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="75dp"
+
+               >
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                    android:text="Definiçoes"
+                    android:gravity="center_vertical|start"
+                    android:padding="15dp"
+                    />
+
+            </android.support.v7.widget.CardView>
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="75dp"
+
+                >
+
+                <android.support.v7.widget.SwitchCompat
+                    android:id="@+id/switch_email"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center_vertical|start"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                    android:text="Receber notícias no e-mail"
+                    android:padding="15dp"
+                    android:layout_marginLeft="10dp"
+                    />
+
+            </android.support.v7.widget.CardView>
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="75dp"
+
+                >
+
+                <android.support.v7.widget.SwitchCompat
+                    android:id="@+id/switch_app"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center_vertical|start"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                    android:text="Receber Notificações"
+                    android:padding="15dp"
+                    android:layout_marginLeft="10dp"
+                    />
+
+            </android.support.v7.widget.CardView>
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                >
+<!--
+                <Button
+
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                    android:text="Guardar"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginLeft="50dp"
+                    android:layout_marginRight="50dp"
+                    android:background="@drawable/button_bg_rounded_corners"
+
+                    />
+                    -->
+
+            </android.support.v7.widget.CardView>
+            <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+            >
+
+                <Button
+                    android:id="@+id/sair"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                    android:text="Sair"
+
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginLeft="50dp"
+                    android:layout_marginRight="50dp"
+                    android:background="@drawable/button_bg_rounded_corners"
+
+                    />
+
+
+        </android.support.v7.widget.CardView>
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                >
+
+
+                <Button
+                    android:id="@+id/killuser"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                    android:text="Eliminar Conta"
+
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginLeft="50dp"
+                    android:layout_marginRight="50dp"
+                    android:background="@drawable/button_bg_rounded_corners_red"
+
+                    />
+
+            </android.support.v7.widget.CardView>
+
+
+
+
+
+
+
+
+
+
+            
+        </LinearLayout>
+
+
+
+    </android.support.v4.widget.NestedScrollView>
+
+
+    <!--
+    <com.hitomi.cmlibrary.CircleMenu
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/circlemenu"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+        android:layout_alignParentRight="true"/>-->
+
+
+</android.support.design.widget.CoordinatorLayout>
