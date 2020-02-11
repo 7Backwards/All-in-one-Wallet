@@ -2,7 +2,7 @@
 
 
 Fidelity Card System to manage sales, discounts and transactions of a company,
-done as result of a final project on the 2nd year of degree proposded by BizDirect.
+done as result of a final project on the 2nd year of degree proposed by BizDirect.
 
 
 # Platforms
